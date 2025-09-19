@@ -49,10 +49,10 @@ Initial condition for all simulations is (x,y,z) = (3,4,2), unless stated otherw
       <img width="746" height="607" alt="image" src="https://github.com/user-attachments/assets/7136aae6-2042-436e-9b1d-1a0f795dd8a3" />
 
  - Control Strategy
-    - Since b is associated with the intermediate axis and will always be unstable, we shift our focus to reducing a,c.
-    - For smaller values of a and c, we observe stable branches in the bifurcation diagrams.
-    - Will a reduction of both a and c result in stability, or are there only specific pairs?
-    - To find out the pairs, we do a parameter sweep and identify which pairs of a,c converge to a stable fixed point which would then lead to stability.
+    - Since $b$ is associated with the intermediate axis and will always be unstable, we shift our focus to reducing $a,c$.
+    - For smaller values of $a$ and $c$, we observe stable branches in the bifurcation diagrams.
+    - Will a reduction of both $a$ and $c$ result in stability, or are there certain specific pairs?
+    - To find out the pairs, we do a parameter sweep and identify which pairs of $a,c$ converge to a stable fixed point which would then lead to stability.
       <img width="926" height="758" alt="image" src="https://github.com/user-attachments/assets/9df6fd68-06df-4341-84aa-1055732f48b9" />
     - For effective control, we need a small value of $a$ and a larger value of $c$, so a P-controller applied to the x-axis which would result in a decrease in the value of parameter a should suffice.
   
