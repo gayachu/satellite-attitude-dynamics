@@ -1,5 +1,5 @@
 # satellite-attitude-dynamics
-Analysing satellite attitude under disturbance torques to identify stable regimes and implement effective control.
+A dynamical systems approach to satellite attitude dynamics. Investigating stability under disturbance torques and implementing control to suppress chaos.
 
 ## Overview
 - Derived Euler’s rotational dynamics under disturbance torques.  
